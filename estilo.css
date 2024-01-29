@@ -1,0 +1,31 @@
+.body{
+    background-color: darkolivegreen;
+}
+.cabecera{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: solid black 5px;
+    border-radius: 50px;
+    color:darkblue;
+    height: 75px;
+    width: auto;
+    font-size: 30px;
+}
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 5px;
+    border-radius: 50px;
+    width: auto;
+    height: 500px;
+    margin-top: 10px;
+}
+.letra{
+    display: flex;
+    justify-content:baseline;
+    align-items:baseline;
+    margin-bottom: 450px;
+    font-size: 20px;
+}

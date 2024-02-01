@@ -48,9 +48,9 @@ function destapar(button, fila, columna) {
         button.disabled = true;
 
     }
-
-
 }
+
+
 
 function minaCercana(fila, columna) {
     for (i = fila - 1; i <= fila + 1; i++) {

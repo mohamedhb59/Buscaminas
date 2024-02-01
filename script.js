@@ -12,7 +12,7 @@ function inicio() {
     }
 
     var minas = 5;
-    while (minas > 0) {
+    while (minas > 0) {                  
         var fila = Math.floor(Math.random() * filas);
         var columna = Math.floor(Math.random() * columnas);
         if (matriz[fila][columna] == 0) {
@@ -27,7 +27,7 @@ function generarBotones() {
     for (var i = 0; i < filas; i++) {
         html += '<div>';
         for (var j = 0; j < columnas; j++) {
-            html += '<button type="button" onclick="destapa(event.target,' + i + ',' + j + ')"></button>';
+            html += '<button type="button" onclick="destapar(event.target,' + i + ',' + j + ')"></button>';
         }
         html += '</div>';
     }

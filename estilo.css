@@ -19,13 +19,23 @@
     border: solid black 5px;
     border-radius: 50px;
     width: auto;
-    height: 500px;
+    height: 600px;
     margin-top: 10px;
 }
 .letra{
     display: flex;
     justify-content:baseline;
     align-items:baseline;
-    margin-bottom: 450px;
+    margin-bottom: 550px;
     font-size: 20px;
+    margin-left: 400px;
+}
+.matriz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 40px;
 }

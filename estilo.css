@@ -10,7 +10,7 @@
     color:darkblue;
     height: 75px;
     width: auto;
-    font-size: 30px;
+    font-size: 50px;
 }
 .general{
     display: flex;
@@ -25,10 +25,9 @@
 .letra{
     display: flex;
     justify-content:baseline;
-    align-items:baseline;
-    margin-bottom: 550px;
+    align-items:first baseline;
     font-size: 20px;
-    margin-left: 400px;
+    margin-bottom: 500px;
 }
 .matriz{
     display: flex;
@@ -38,4 +37,22 @@
 button{
     height: 40px;
     width: 40px;
+}
+.fotillo{
+    height: 100px;
+    width: 100px;
+    border: solid black 5px;
+    border-radius: 90px;
+    display:flex;
+    align-items: center;
+    justify-content: left;
+}
+.fotillo2{
+    height: 150px;
+    width: 300px;
+    border: solid black 5px;
+    border-radius: 90px;
+    display:flex;
+    align-items: center;
+    justify-content: left;
 }

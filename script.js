@@ -11,8 +11,8 @@ function inicio() {
         }
     }
 
-    var minas = 5;
-    while (minas > 0) {                  
+    var minas = 10;
+    while (minas > 0) {
         var fila = Math.floor(Math.random() * filas);
         var columna = Math.floor(Math.random() * columnas);
         if (matriz[fila][columna] == 0) {
@@ -34,24 +34,6 @@ function generarBotones() {
     document.querySelector('#matriz').innerHTML = html;
 }
 
-function destapar(button, fila, columna) {
-    if (matriz[fila][columna] == 1) {
-        button.style.backgroundColor = 'red';
-        button.disabled = true;
-        alert("Boom");
-    } else if (minaCercana(fila, columna)) {
-        button.style.backgroundColor = 'yellow';
-        button.disabled = true;
-
-    } else {
-        button.style.backgroundColor = 'green';
-        button.disabled = true;
-
-    }
-}
-
-
-
 function minaCercana(fila, columna) {
     for (i = fila - 1; i <= fila + 1; i++) {
         for (j = columna - 1; j <= columna + 1; j++) {
@@ -63,4 +45,22 @@ function minaCercana(fila, columna) {
         }
     }
     return false;
+}
+
+function destapar(button, fila, columna) {
+    if (matriz[fila][columna] == 1) {
+        button.style.backgroundColor = 'red';
+        button.disabled = true;
+        setTimeout(function () {
+            alert("Boom, Perdiste");
+        }, 250);
+    } else if (minaCercana(fila, columna)) {
+        button.style.backgroundColor = 'yellow';
+        button.disabled = true;
+
+    } else {
+        button.style.backgroundColor = 'green';
+        button.disabled = true;
+
+    }
 }

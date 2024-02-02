@@ -1,18 +1,20 @@
-.fondo{
-    background-color:aquamarine ;
+.fondo {
+    background-color: aquamarine;
 }
-.cabecera{
+
+.cabecera {
     justify-content: center;
     display: flex;
     align-items: center;
     border: solid black 5px;
     border-radius: 50px;
-    color:darkblue;
+    color: darkblue;
     height: 75px;
     width: auto;
     font-size: 50px;
 }
-.general{
+
+.general {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,40 +24,45 @@
     height: 600px;
     margin-top: 10px;
 }
-.letra{
+
+.letra {
     display: flex;
-    justify-content:baseline;
-    align-items:first baseline;
+    justify-content: baseline;
+    align-items: first baseline;
     font-size: 20px;
     margin-bottom: 550px;
 }
-.matriz{
+
+.matriz {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-button{
+
+button {
     height: 40px;
     width: 40px;
-    border: solid black 1px;
+    border: solid black 3px;
     border-radius: 20px;
     margin: 3px;
 }
-.fotillo{
-    height: 100px;
-    width: 100px;
+
+.fotillo {
+    height: 150px;
+    width: 150px;
     border: solid black 5px;
     border-radius: 90px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: left;
 }
-.fotillo2{
+
+.fotillo2 {
     height: 150px;
     width: 300px;
     border: solid black 5px;
     border-radius: 90px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: left;
 }

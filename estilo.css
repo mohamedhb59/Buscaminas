@@ -1,68 +1,70 @@
 .fondo {
-    background-color: aquamarine;
+  background-color: #7fffd4;
 }
 
 .cabecera {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    border: solid black 5px;
-    border-radius: 50px;
-    color: darkblue;
-    height: 75px;
-    width: auto;
-    font-size: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: solid black 5px;
+  border-radius: 50px;
+  color: black;
+  height: 75px;
+  width: auto;
+  font-size: 50px;
+  background-color: #8B8EB2;
 }
 
 .general {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: solid black 5px;
-    border-radius: 50px;
-    width: auto;
-    height: 600px;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black 5px;
+  border-radius: 50px;
+  width: auto;
+  height: 600px;
+  margin-top: 10px;
+  background-color: #8B8EB2;
 }
 
 .letra {
-    display: flex;
-    justify-content: baseline;
-    align-items: first baseline;
-    font-size: 20px;
-    margin-bottom: 550px;
+  display: flex;
+  justify-content: baseline;
+  align-items: first baseline;
+  font-size: 20px;
+  margin-bottom: 550px;
 }
 
 .matriz {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
-    height: 40px;
-    width: 40px;
-    border: solid black 3px;
-    border-radius: 20px;
-    margin: 3px;
+  height: 40px;
+  width: 40px;
+  border: solid black 3px;
+  border-radius: 20px;
+  margin: 3px;
 }
 
 .fotillo {
-    height: 150px;
-    width: 150px;
-    border: solid black 5px;
-    border-radius: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: left;
+  height: 150px;
+  width: 150px;
+  border: solid black 5px;
+  border-radius: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
 .fotillo2 {
-    height: 150px;
-    width: 300px;
-    border: solid black 5px;
-    border-radius: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: left;
+  height: 150px;
+  width: 300px;
+  border: solid black 5px;
+  border-radius: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }

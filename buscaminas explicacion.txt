@@ -1,0 +1,9 @@
+Matriz del Tablero:Se utiliza una matriz bidimensional `matriz` para representar el tablero del juego, donde los valores de 0 indican posiciones sin minas y los valores de 1 indican posiciones con minas.
+
+Generación de Botones: La función `generarBotones` crea dinámicamente botones en el HTML para representar el tablero del juego.
+
+3. Inicialización del Juego: La función `inicio` inicializa el juego generando botones y colocando minas aleatorias en el tablero.
+
+4. Destapar Botón: La función `destapar` se ejecuta cuando se hace clic en un botón. Dependiendo de si hay una mina o minas cercanas, el color del botón cambia y se muestra un mensaje de "Boom" si se destapa una mina.
+
+5. Minas Cercanas: La función `minaCercana` verifica si hay una mina cercana a una posición específica en el tablero.
